@@ -1,0 +1,11 @@
+﻿@page
+@model PAW.Areas.Identity.Pages.Account.LogoutModel
+@{
+    ViewData["Title"] = "Logged Out";
+    Layout = "_LayoutIdentity";
+}
+
+<div class="container text-center py-5">
+    <h1 class="text-light">You have been logged out.</h1>
+    <a class="btn btn-outline-light mt-4" asp-page="/Account/Login">Return to Login</a>
+</div>

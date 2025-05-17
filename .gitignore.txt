@@ -1,0 +1,15 @@
+.vs/
+*.user
+*.suo
+bin/
+obj/
+*.dbmdl
+*.log
+*.tmp
+*.ncb
+*.sdf
+*.cache
+*.zip
+*.exe
+*.dll
+*.pdb

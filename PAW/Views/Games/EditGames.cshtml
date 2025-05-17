@@ -1,0 +1,33 @@
+﻿@model PAW.Models.Game
+
+@{
+    ViewData["Title"] = "Edit Game";
+    Layout = "_LayoutClient";
+}
+
+<h2>Edit Game Price</h2>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="GameID" />
+    <input type="hidden" asp-for="Title" />
+    <input type="hidden" asp-for="Description" />
+    <input type="hidden" asp-for="ReleaseDate" />
+    <input type="hidden" asp-for="GenreId" />
+    <input type="hidden" asp-for="ImageFileName" />
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" type="number" step="0.01" min="0" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <button type="submit" class="btn btn-success">Save Changes</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

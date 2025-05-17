@@ -1,0 +1,585 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\PAW.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PAW.8xy6yof0z9.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\AddToCartDetailsGames.css",
+      "PackagePath": "staticwebassets\\css\\AddToCartDetailsGames.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\Billing.css",
+      "PackagePath": "staticwebassets\\css\\Billing.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\Cart.css",
+      "PackagePath": "staticwebassets\\css\\Cart.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\Favorites.css",
+      "PackagePath": "staticwebassets\\css\\Favorites.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\FilterButton.css",
+      "PackagePath": "staticwebassets\\css\\FilterButton.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\GameDetails.css",
+      "PackagePath": "staticwebassets\\css\\GameDetails.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\News.css",
+      "PackagePath": "staticwebassets\\css\\News.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\games.css",
+      "PackagePath": "staticwebassets\\css\\games.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\reviews.css",
+      "PackagePath": "staticwebassets\\css\\reviews.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\settings.css",
+      "PackagePath": "staticwebassets\\css\\settings.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\131819bc-5601-4c0b-a29f-bdda3a34ea32_cyberpunk2077.jpg",
+      "PackagePath": "staticwebassets\\images\\131819bc-5601-4c0b-a29f-bdda3a34ea32_cyberpunk2077.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\1dc97020-eca6-42aa-b500-000ea3b56c3f_minecraft.jpg",
+      "PackagePath": "staticwebassets\\images\\1dc97020-eca6-42aa-b500-000ea3b56c3f_minecraft.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\34cf62b4-c38f-4db0-a758-6137f8072b6e_e66ea27c-f5f5-4156-8227-88ca0705e1bc_minecraft.jpg",
+      "PackagePath": "staticwebassets\\images\\34cf62b4-c38f-4db0-a758-6137f8072b6e_e66ea27c-f5f5-4156-8227-88ca0705e1bc_minecraft.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\467986f2-a9f7-4cd1-b26a-2b6059734ecc_mk1.jpg",
+      "PackagePath": "staticwebassets\\images\\467986f2-a9f7-4cd1-b26a-2b6059734ecc_mk1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\4ca1e6f7-b573-4ba5-90e2-b5ef4dfee317_cyberpunk2077.jpg",
+      "PackagePath": "staticwebassets\\images\\4ca1e6f7-b573-4ba5-90e2-b5ef4dfee317_cyberpunk2077.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\9c7d0379-c9df-4800-993f-ac767602b74b_mk1.jpg",
+      "PackagePath": "staticwebassets\\images\\9c7d0379-c9df-4800-993f-ac767602b74b_mk1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\Logo.jpg",
+      "PackagePath": "staticwebassets\\images\\Logo.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\cyberpunk2077.jpg",
+      "PackagePath": "staticwebassets\\images\\cyberpunk2077.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\dc59f5d3-242a-40ad-8ada-ee23c904c665_e66ea27c-f5f5-4156-8227-88ca0705e1bc_minecraft.jpg",
+      "PackagePath": "staticwebassets\\images\\dc59f5d3-242a-40ad-8ada-ee23c904c665_e66ea27c-f5f5-4156-8227-88ca0705e1bc_minecraft.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\default-profile.jpg",
+      "PackagePath": "staticwebassets\\images\\default-profile.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\e66ea27c-f5f5-4156-8227-88ca0705e1bc_minecraft.jpg",
+      "PackagePath": "staticwebassets\\images\\e66ea27c-f5f5-4156-8227-88ca0705e1bc_minecraft.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\eaeb5b5c-d80a-45e2-a096-9615978ea62b_forzahorizon5.jpg",
+      "PackagePath": "staticwebassets\\images\\eaeb5b5c-d80a-45e2-a096-9615978ea62b_forzahorizon5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\easportsfc25.jpg",
+      "PackagePath": "staticwebassets\\images\\easportsfc25.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\fifa26.jpg",
+      "PackagePath": "staticwebassets\\images\\fifa26.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\forzahorizon5.jpg",
+      "PackagePath": "staticwebassets\\images\\forzahorizon5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\gtaVI.jpg",
+      "PackagePath": "staticwebassets\\images\\gtaVI.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\minecraft.jpg",
+      "PackagePath": "staticwebassets\\images\\minecraft.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\mk1.jpg",
+      "PackagePath": "staticwebassets\\images\\mk1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\monsterhunterwilds.jpg",
+      "PackagePath": "staticwebassets\\images\\monsterhunterwilds.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\outlast.jpg",
+      "PackagePath": "staticwebassets\\images\\outlast.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\outlast2.jpg",
+      "PackagePath": "staticwebassets\\images\\outlast2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\raft.jpg",
+      "PackagePath": "staticwebassets\\images\\raft.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\stranding2.jpg",
+      "PackagePath": "staticwebassets\\images\\stranding2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\stray.jpg",
+      "PackagePath": "staticwebassets\\images\\stray.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\images\\theforest.jpg",
+      "PackagePath": "staticwebassets\\images\\theforest.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\Cart.js",
+      "PackagePath": "staticwebassets\\js\\Cart.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\CartBadge.js",
+      "PackagePath": "staticwebassets\\js\\CartBadge.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\Favorites.js",
+      "PackagePath": "staticwebassets\\js\\Favorites.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\FilterGames.js",
+      "PackagePath": "staticwebassets\\js\\FilterGames.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\GameDetailsCart.js",
+      "PackagePath": "staticwebassets\\js\\GameDetailsCart.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\add_game.js",
+      "PackagePath": "staticwebassets\\js\\add_game.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\game-details.js",
+      "PackagePath": "staticwebassets\\js\\game-details.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\profile.js",
+      "PackagePath": "staticwebassets\\js\\profile.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\reviews.js",
+      "PackagePath": "staticwebassets\\js\\reviews.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\0dc13ef4-c0a9-49a5-9c22-d69b2b375e33.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\0dc13ef4-c0a9-49a5-9c22-d69b2b375e33.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\1aa0143e-88c8-44f9-b5e3-8216ec58663e.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\1aa0143e-88c8-44f9-b5e3-8216ec58663e.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\2d3f57cf-2277-41b0-8ecc-0aab254e0196.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\2d3f57cf-2277-41b0-8ecc-0aab254e0196.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\3bbd48c5-b647-4bc3-8762-a0b8348a5ee3.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\3bbd48c5-b647-4bc3-8762-a0b8348a5ee3.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\3c1ca0fe-f486-4ae9-baf9-9ca34bb5cd25.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\3c1ca0fe-f486-4ae9-baf9-9ca34bb5cd25.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\4baba248-a553-48a3-bb72-a3ceec2dccc7.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\4baba248-a553-48a3-bb72-a3ceec2dccc7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\4fb6476b-5cc4-449b-a399-17ae48f314a4.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\4fb6476b-5cc4-449b-a399-17ae48f314a4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\70558807-95f6-477b-a98f-9b306219e3c8.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\70558807-95f6-477b-a98f-9b306219e3c8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\78198769-4a4e-4c18-a6fc-709bfc8d4771_0663f791-a612-429e-84f6-e01af8bda351.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\78198769-4a4e-4c18-a6fc-709bfc8d4771_0663f791-a612-429e-84f6-e01af8bda351.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\7b68b8c1-d3c8-4980-a436-d7b4262c7391.png",
+      "PackagePath": "staticwebassets\\profile_images\\7b68b8c1-d3c8-4980-a436-d7b4262c7391.png"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\83fe1de9-0558-439e-9b8c-12ce89bfc696.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\83fe1de9-0558-439e-9b8c-12ce89bfc696.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\83fe1de9-0558-439e-9b8c-12ce89bfc696_d6ce1602-691a-4c1c-b1c8-06cda3fb4c34.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\83fe1de9-0558-439e-9b8c-12ce89bfc696_d6ce1602-691a-4c1c-b1c8-06cda3fb4c34.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\8884fcb0-acc1-46e2-ae2b-4c41a9efcfb4.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\8884fcb0-acc1-46e2-ae2b-4c41a9efcfb4.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\8b2ed6db-d5d8-4959-bd93-916ac4b5ca17.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\8b2ed6db-d5d8-4959-bd93-916ac4b5ca17.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\9831863d-22b2-457f-8d4f-0b4110ee9937.png",
+      "PackagePath": "staticwebassets\\profile_images\\9831863d-22b2-457f-8d4f-0b4110ee9937.png"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\a48d3343-ec37-4756-89cf-5a649ac371c6.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\a48d3343-ec37-4756-89cf-5a649ac371c6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\a6ff48c3-0fe1-4e9f-b4cb-75f6d200c8ed.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\a6ff48c3-0fe1-4e9f-b4cb-75f6d200c8ed.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\bce2af41-9060-4629-9d89-bf6caaf2a95b.png",
+      "PackagePath": "staticwebassets\\profile_images\\bce2af41-9060-4629-9d89-bf6caaf2a95b.png"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_0d0572a8-9dfa-448e-95f3-c2ed4c2b6dee.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_0d0572a8-9dfa-448e-95f3-c2ed4c2b6dee.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_2147dca4-a5d8-458a-b0ff-77aa887b342a.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_2147dca4-a5d8-458a-b0ff-77aa887b342a.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_6f42826f-9d89-4998-9d5c-bcdaec70af3a.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_6f42826f-9d89-4998-9d5c-bcdaec70af3a.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_e26cc45c-3d51-4d77-bef5-1eab8841396b.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\c7accd3e-6ec3-48b3-9aa4-51a8cf47985d_e26cc45c-3d51-4d77-bef5-1eab8841396b.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\d632bfa2-3d5f-45a7-bfcc-b97a5614e0c2.png",
+      "PackagePath": "staticwebassets\\profile_images\\d632bfa2-3d5f-45a7-bfcc-b97a5614e0c2.png"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\dbdcee97-7fdb-4a83-b81f-b4c5d9a4fa57.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\dbdcee97-7fdb-4a83-b81f-b4c5d9a4fa57.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\e700c7d2-df6b-455e-a74c-906064bd70e7.png",
+      "PackagePath": "staticwebassets\\profile_images\\e700c7d2-df6b-455e-a74c-906064bd70e7.png"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\f80c1bda-67c6-46f8-a89a-7dd258f63665.jpeg",
+      "PackagePath": "staticwebassets\\profile_images\\f80c1bda-67c6-46f8-a89a-7dd258f63665.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\PAW\\PAW\\PAW\\wwwroot\\profile_images\\fe7af37c-41b0-4b85-a72b-9d73b855fb12.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\fe7af37c-41b0-4b85-a72b-9d73b855fb12.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PAW.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.PAW.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.PAW.props",
+      "PackagePath": "build\\PAW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.PAW.props",
+      "PackagePath": "buildMultiTargeting\\PAW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.PAW.props",
+      "PackagePath": "buildTransitive\\PAW.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

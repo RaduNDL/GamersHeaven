@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutClient.cshtml";
+    ViewData["Title"] = "My Profile";
+    var userId = ViewBag.UserId as string;
+    var profileImage = ViewBag.ProfileImage as string ?? Url.Content("~/images/default-profile.jpg");
+    var userName = ViewBag.UserName as string ?? "User";
+}
+<link rel="stylesheet" href="~/css/profile.css" asp-append-version="true" />
+<div class="profile-section">
+    <div class="profile-container">
+        <h2>@ViewData["Title"]</h2>
+        <form method="post" enctype="multipart/form-data" class="profile-details" id="profile-form">
+            <div class="profile-picture">
+                <label for="upload-profile-pic" style="cursor:pointer;">
+                    <img id="profile-img"
+                         src="@($"{profileImage}?v={Guid.NewGuid()}")"
+                         alt="Profile Image"
+                         onerror="this.onerror=null;this.src='@Url.Content("~/images/default-profile.jpg")';" />
+                </label>
+            </div>
+            <label for="UserNameInput">Username</label>
+            <input type="text" name="UserName" id="UserNameInput" value="@userName" required minlength="3" maxlength="32" />
+            <button type="button" id="change-username" class="btn btn-warning mb-2 mt-2" style="width:100%;">Change Username</button>
+            <label class="upload-label mt-3" for="upload-profile-pic">Upload New Profile Image</label>
+            <input type="file" name="profileImage" id="upload-profile-pic" accept="image/*" />
+            <button type="button" id="change-photo" class="btn btn-warning mb-2 mt-2" style="width:100%;">Change Photo</button>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/js/profile.js" asp-append-version="true"></script>
+}

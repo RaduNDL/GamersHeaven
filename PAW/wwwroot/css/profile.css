@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #161a2a;
+    color: #f6f6f6;
+}
+
+.profile-section {
+    padding: 56px 0 40px 0;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #1b213a 0%, #181c2f 100%);
+}
+
+.profile-container {
+    background: #23264a;
+    border-radius: 18px;
+    box-shadow: 0 4px 36px rgba(0,0,0,0.22);
+    padding: 2.5rem 3.5rem 2.2rem 3.5rem;
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+    .profile-container h2 {
+        color: #f2cb57;
+        font-weight: 800;
+        margin-bottom: 12px;
+        font-size: 2rem;
+        letter-spacing: 0.03em;
+    }
+
+.profile-picture {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#profile-img {
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f2cb57;
+    box-shadow: 0 3px 17px rgba(50,50,100,0.21);
+    background: #1a1e34;
+    transition: border 0.18s, box-shadow 0.18s;
+}
+
+    #profile-img:hover {
+        border: 4px solid #ffe88b;
+        box-shadow: 0 6px 30px rgba(255, 226, 110, 0.18);
+    }
+
+.upload-label {
+    display: block;
+    margin: 0 auto;
+    color: #ffe88b;
+    font-weight: 600;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 1.05rem;
+    letter-spacing: 0.03em;
+    transition: color 0.2s;
+}
+
+    .upload-label:hover {
+        color: #f2cb57;
+    }
+
+#upload-profile-pic {
+    display: none;
+}
+
+#save-profile {
+    padding: 0.8rem 2.2rem;
+    background: linear-gradient(135deg, #f2cb57, #ffb347);
+    color: #181c2f;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 1.13rem;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.17s;
+    box-shadow: 0 2px 12px rgba(242, 203, 87, 0.09);
+}
+
+    #save-profile:hover, #save-profile:focus {
+        background: linear-gradient(135deg, #ffe88b, #f2cb57);
+        color: #111325;
+    }
+
+#display-username {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #ffb347;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    letter-spacing: 0.03em;
+}
+
+@media (max-width: 650px) {
+    .profile-container {
+        max-width: 97vw;
+        padding: 1.1rem 0.5rem;
+    }
+}

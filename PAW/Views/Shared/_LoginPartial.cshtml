@@ -1,0 +1,48 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject IHttpContextAccessor HttpContextAccessor
+@inject PAW.Data.ApplicationDbContext DbContext
+
+@{
+    var user = HttpContextAccessor.HttpContext?.User;
+    var userId = user?.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+    string profileImagePath = Url.Content("~/images/default-profile.jpg"); 
+
+    if (!string.IsNullOrEmpty(userId))
+    {
+        var photo = DbContext.Photos.FirstOrDefault(p => p.UserId == userId);
+        if (photo != null && !string.IsNullOrEmpty(photo.ImagePath))
+        {
+            profileImagePath = Url.Content(photo.ImagePath);
+        }
+    }
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item me-2">
+        <a class="nav-link" asp-controller="Profile" asp-action="Index" title="Profile">
+            <img src="@($"{profileImagePath}?v={Guid.NewGuid()}")" alt="Profile Image"
+                 style="height:36px; width:36px; border-radius:50%; object-fit:cover;"
+                 onerror="this.onerror=null;this.src='@Url.Content("~/images/default-profile.jpg")';" />
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" method="post"
+              asp-route-returnUrl="/Identity/Account/Login">
+            <button type="submit" class="nav-link btn btn-link text-light border-0">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}

@@ -1,0 +1,126 @@
+﻿.favorites-modern {
+    background: #0d1b2a;
+    padding: 60px 20px;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.favorites-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+    .favorites-wrapper h2 {
+        text-align: center;
+        font-size: 36px;
+        color: #e94560;
+        margin-bottom: 40px;
+    }
+
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.favorite-card {
+    background-color: #1b263b;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+    .favorite-card:hover {
+        transform: translateY(-5px);
+    }
+
+.card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-image {
+    overflow: hidden;
+    position: relative;
+}
+
+    .card-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        transition: transform 0.4s ease, filter 0.3s ease;
+    }
+
+.favorite-card:hover .card-image img {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .card-body h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .card-body .price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #3ddc97;
+        margin-bottom: 15px;
+    }
+
+    .card-body form {
+        margin-top: auto;
+    }
+
+.btn-remove {
+    background-color: #e94560;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    .btn-remove:hover {
+        background-color: #c32f49;
+    }
+
+.empty-favorites {
+    color: #ccc;
+    font-size: 20px;
+    text-align: center;
+    grid-column: 1 / -1;
+}
+.btn-back {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #3a86ff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .btn-back:hover {
+        background-color: #265df2;
+        transform: translateY(-2px);
+    }

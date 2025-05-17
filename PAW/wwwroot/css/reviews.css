@@ -1,0 +1,116 @@
+﻿.reviews {
+    background: #181c2f;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.20);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .reviews h2 {
+        color: #f2cb57;
+        margin-bottom: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+.review-list {
+    margin-bottom: 1.5rem;
+}
+
+.single-review {
+    background: #212645;
+    border-left: 4px solid #f2cb57;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    color: #f6f6f6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    font-size: 1rem;
+}
+
+    .single-review b,
+    .review-username {
+        color: #f2cb57;
+        font-weight: 600;
+        font-size: 1.07em;
+    }
+
+    .single-review hr {
+        border: none;
+        border-top: 1px solid #303366;
+        margin: 0.8rem 0 0 0;
+    }
+
+.review-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f2cb57;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.review-stars {
+    color: #f2cb57;
+    font-size: 1.12em;
+    letter-spacing: 0.08em;
+}
+
+#review-text {
+    width: 100%;
+    min-height: 70px;
+    border-radius: 6px;
+    border: 1px solid #303366;
+    background: #23274a;
+    color: #f6f6f6;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    resize: vertical;
+    transition: border 0.2s;
+}
+
+    #review-text:focus {
+        outline: none;
+        border: 1.5px solid #f2cb57;
+        background: #24284c;
+    }
+
+#submit-review {
+    display: block;
+    background: linear-gradient(135deg, #f2cb57, #ffb347);
+    color: #181c2f;
+    border: none;
+    padding: 0.7rem 1.8rem;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 10px rgba(242, 203, 87, 0.15);
+}
+
+    #submit-review:hover, #submit-review:focus {
+        background: linear-gradient(135deg, #ffe88b, #f2cb57);
+        color: #111325;
+    }
+
+.review-actions button {
+    margin-right: 0.5rem;
+    padding: 0.3rem 1.1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.96rem;
+    cursor: pointer;
+    background: #35397b;
+    color: #f2cb57;
+    transition: background 0.18s;
+}
+
+    .review-actions button:hover {
+        background: #f2cb57;
+        color: #23274a;
+    }

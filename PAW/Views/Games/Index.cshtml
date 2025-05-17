@@ -1,0 +1,87 @@
+﻿@model IEnumerable<PAW.Models.Game>
+@using Microsoft.AspNetCore.Authorization
+
+@{
+    ViewData["Title"] = "Games - Gamer's Heaven";
+    Layout = "_LayoutClient";
+    var favoriteIds = ViewBag.FavoriteGameIds as List<int> ?? new List<int>();
+    var isAdmin = User.IsInRole("Administrator");
+    var genres = ViewBag.Genres as List<PAW.Models.Genre> ?? new List<PAW.Models.Genre>();
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/AddToCartDetailsGames.css" />
+    <link rel="stylesheet" href="~/css/FilterButton.css" />
+}
+
+<section class="game-gallery-horizontal">
+    <h2>All Games</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (isAdmin)
+    {
+        <button class="btn btn-primary" id="add-game-button" onclick="window.location.href='@Url.Action("Add", "Games")'">
+            Add Game
+        </button>
+    }
+
+    <div class="GenreDropdown-wrapper">
+        <button id="GenreDropdown-toggle" class="GenreDropdown-toggle">
+            <img src="https://img.icons8.com/?size=50&id=3004&format=png" width="24" height="24" alt="Filter icon" />
+        </button>
+
+        <div class="GenreDropdown-menu" id="GenreDropdown-menu">
+            <button class="filter-btn" data-filter="all">All</button>
+            @foreach (var genre in genres)
+            {
+                <button class="filter-btn" data-filter="@genre.Name">@genre.Name</button>
+            }
+        </div>
+    </div>
+
+    <div class="GenreDropdown-content-wrapper" id="contentWrapper">
+        <div class="games-container" id="gamesContainer">
+            @foreach (var game in Model)
+            {
+                var isFavorited = favoriteIds.Contains(game.GameID);
+                var starClass = isFavorited ? "favorite-star favorited" : "favorite-star";
+                var starIcon = isFavorited ? "★" : "☆";
+
+                <div class="game-card" data-genre="@game.Genre?.Name">
+                    <a asp-controller="Games" asp-action="Details" asp-route-id="@game.GameID">
+                        <img src="@game.ImagePath" alt="@game.Title" />
+                    </a>
+                    <h3>@game.Title</h3>
+
+                    @if (isAdmin)
+                    {
+                        <div class="mt-2">
+                            <a asp-controller="Games" asp-action="Edit" asp-route-id="@game.GameID" class="btn btn-sm btn-warning me-1">Edit</a>
+                            <a asp-controller="Games" asp-action="Delete" asp-route-id="@game.GameID" class="btn btn-sm btn-danger"
+                               onclick="return confirm('Are you sure you want to delete @game.Title?');">
+                                Delete
+                            </a>
+                        </div>
+                    }
+
+                    <p class="price">$@game.Price</p>
+                    <span class="@starClass" data-game="@game.GameID">@starIcon</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="~/js/Cart.js" asp-append-version="true"></script>
+    <script src="~/js/Favorites.js" asp-append-version="true"></script>
+    <script src="~/js/FilterGames.js" asp-append-version="true"></script>
+}
